@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #000000;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header(3).jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -283,6 +283,7 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
@@ -291,34 +292,112 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+header .intro-text .intro-lead-in .long-text {
+    display: none;
+}
+
 header .intro-text .intro-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .intro-text .intro-heading p{
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 50px;
 }
 
+header .intro-card {
+    background-color: #000000;
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    padding: 25px;
+    opacity: 0.85;
+    width: 70%;
+}
+
+header .intro-card .intro-info .button {
+    display: flex;
+    flex-flow: column;
+    height: 130px;
+}
+
+header .intro-card .intro-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    width: 85%;
+}
+
+header .intro-card .intro-info .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header .intro-card .intro-info .button .btn-services {
+    border-radius: 15px;
+    background-color: green;
+}
+
+header .intro-card .intro-info .button .btn-contact-us {
+    border-radius: 15px;
+}
+
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 250px;
+        padding-bottom: 250px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
     }
 
+    header .intro-text .intro-lead-in .short-text {
+        display: none;
+    }
+
+    header .intro-text .intro-lead-in .long-text {
+        display: block;
+    }
+
+    header .intro-card {
+        flex-flow: row;
+    }
+
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
+        border-right: 2px solid;
+    }
+
+    header .intro-card .intro-info {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    }
+    
+    header .intro-card .intro-info .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 43px;
+    }
+
+    header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -331,11 +410,11 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 20px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
@@ -764,6 +843,15 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #{{ site.data.template.color.primary }};
+}
+
+.button a:first {
+    background-color: green;
+}
+
+.button a {
+    background-color: #fed136;
+    color: #000000;
 }
 
 .btn:focus,
