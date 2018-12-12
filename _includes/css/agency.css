@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #FFFFFF;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -263,13 +263,21 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default .nav li a {
+        color: #000000;
+    }
+
+    .navbar-default.navbar-shrink .nav li a {
+        color: #fff;
+    }
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header(3).jpg');
+    background-image: url('{{ site.baseurl }}/img/header(2).jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -308,7 +316,7 @@ header .intro-text .intro-heading p{
     font-family: {{ site.data.template.font.primary }};
     font-size: 17px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 header .intro-card {
@@ -407,6 +415,10 @@ section {
     padding: 100px 0;
 }
 
+section#services {
+    padding: 110px 0 0 0;
+}
+
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
@@ -423,8 +435,12 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
-    section {
-        padding: 150px 0;
+    section #contact {
+        padding: 110px 0;
+    }
+
+    section #portofolio {
+        padding-top: 100px 0;
     }
 }
 

@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: Ascend Events
 email: info@ascend-events.tk
-description: "Hire Party-Tents, Chairs and Tables. Choose Ascend Events. Creating lasting Memories"
+description: "Hire Party-Tents, Chairs and Tables. Choose Ascend Events. Creating Lasting Memories"
 
 
 # Team names, titles and social links
@@ -45,11 +45,11 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/kerismanique
   - title: facebook
-    url: 
+    url: https://www.facebook.com/kerismanique
   - title: instagram
-    url: http://github.com/jekyll
+    url: https://www.instagram.com/kerismanique_events/
 
 # Postal address (add as many lines as necessary)
 address:
