@@ -1,12 +1,10 @@
 ---
 title: Tents
-subtitle: Hexagonal and Alpine tents
+subtitle: Hexagonal and Alpine tents.
 layout: default
 modal-id: 2
-date: 2014-07-17
 img: hexagonal-tents.png
 thumbnail: hexagonal-tents-thumbnail.png
 alt: image-alt
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: At Ascend Events we know that our client desire good quality services at pocket friendly prices. We have spacious hexogonal tents that can sit around 70 people with chairs and tables. Our modern tents are easy to transport and assemble.
 ---

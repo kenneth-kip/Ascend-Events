@@ -340,8 +340,6 @@ header .intro-card .intro-info {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-    margin-left: 10px;
-    width: 85%;
 }
 
 header .intro-card .intro-info .button {
@@ -394,6 +392,7 @@ header .intro-card .intro-info .button .btn-contact-us {
         flex-flow: column;
         justify-content: space-evenly;
         margin-left: 10px;
+        width: 85%;
     }
     
     header .intro-card .intro-info .button {

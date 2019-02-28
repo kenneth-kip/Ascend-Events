@@ -1,12 +1,11 @@
 ---
-title: Chairs
-subtitle: Elegant Chiavari Chairs and Plastic chairs
+title: Chiavari Chairs
+subtitle: Elegant and classy chiavari chairs.
 layout: default
 modal-id: 3
-date: 2014-07-16
 img: chiavari.png
 thumbnail: chiavari-thumbnail.jpeg
 alt: image-alt
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: We provide classy chiavari chairs that gives your event the touch and the finesse it deserves. Chiavari chairs are strong and provides you guests with great comfort. It can be used for any outdoor or indoor events.
 
 ---

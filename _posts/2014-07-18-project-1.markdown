@@ -3,9 +3,8 @@ title: Decor
 subtitle: Decor and Events Planning.
 layout: default
 modal-id: 1
-date: 2014-07-18
 img: decor.jpeg
 thumbnail: decor-thumbnail.jpeg
 alt: image-alt
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: We are always striving to give your event the look, concept or theme it deserves by providing wide range of modern decor equipment.
 ---

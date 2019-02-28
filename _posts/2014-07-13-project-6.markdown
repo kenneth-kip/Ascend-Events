@@ -1,15 +1,11 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: PA & Sound system
+subtitle: PA and sound equipment that can cater for the sound needs of your event.
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: public-address.jpg
+thumbnail: public-address.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: We have a dedicated team technically adept at providing sound hire services that your event needs. With state-of-the-art equipment, we always ensure our client's event always get the services they deserve. 
 
 ---
